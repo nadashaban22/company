@@ -1,0 +1,100 @@
+
+:root{
+    --color1:#53b3b6;
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 13px;
+}
+body{
+   
+    position: relative;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.bg1{
+    background-color: var(--color1)!important;
+}
+.color1{
+    color: var(--color1)!important;
+}
+.mynav{
+
+    background-color: var(--color1)!important;
+}
+.navbar{
+    --bs-navbar-padding-y: 0rem!important;
+    --bs-navbar-padding-y: 0rem!important;
+    --bs-navbar-nav-link-padding-x: 1rem;
+    --bs-navbar-nav-link-padding-x: 1rem;
+ 
+}
+.nav-link{
+    color: white!important;
+    padding: 0.8rem 1rem !important;
+    letter-spacing: 3px;
+}
+.nav-link:hover{
+    color:var(--color1)!important;
+    background-color: white;
+}
+.navbar .active{
+    background-color: white!important;
+    color: var(--color1)!important;
+}
+
+
+.navbar-brand 
+{
+    padding-left: 0.8rem!important;
+    padding-right: 0.8rem!important;
+}
+.carousel-indicators [data-bs-target]
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:var(--color1)!important;
+}
+.carousel-control-next-icon ,.carousel-control-prev-icon{
+    background-image: none!important;
+}
+.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon {
+    filter: none!important;
+}
+
+.card-body button{
+    background-color:var(--color1)!important;
+    color: white!important;
+    border:1px solid var(--color1)!important;
+}
+.card-body button:hover{
+    background-color: white!important;
+    color: var(--color1)!important;
+}
+.card{
+    border:1px solid var(--color1)!important;
+    margin: 20px!important;
+}
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)!important;
+}
+
+@media screen and (max-width: 767px){
+
+    .navbar-toggler {
+        padding: 5px!important;
+        margin: 10px!important;
+       
+      
+    }
+}
+@media screen and (max-width: 557px){
+
+    .aboutform{
+        width: 100%!important;
+    }
+
+}
+

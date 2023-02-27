@@ -1,0 +1,381 @@
+
+   <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link href="css/animate.css" rel="stylesheet" >
+    
+    <link href="css/style.css" rel="stylesheet" >
+    <style>
+     
+.dashcolor{
+  position:fixed;
+  border: 2px solid grey;
+  border-radius: 10px;
+  right: 10px;
+  top: 100px;
+
+}
+.dashcolor button{
+  border: 1px solid burlywood;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  z-index: 99999999999999999999999999999999;
+}
+.n1{
+  background-color: rgb(47, 248, 255);
+}
+.n2{
+  background-color: rgb(8, 72, 114)
+}
+.n3{
+  background-color: rgb(113, 114, 179);
+}
+
+    </style>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#top" tabindex="0">
+
+
+
+    <!--start navbar-->
+<div class="dashcolor">
+  <button class="n1"></button>
+  <button class="n2"></button>
+  <button class="n3"></button>
+</div>
+    <nav id="top"class="navbar  navbar-dark navbar-expand-md bg-light mynav px-md-5 fixed-top">
+      <div class="container-fluid p-0">
+        <a class="navbar-brand " href="#">LOGO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active " aria-current="page" href="#about">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portofolio">PORTOFOLIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">PRICING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <!--start header-->
+    <header class="container-fluid bg1 p-md-5 p-3 text-light text-center">
+      <h1 class="fs-1 fw-normal pt-5 wow bounceInUp" data-wow-duration="1s">Company</h1>
+      <h3 class="fs-3 fw-normal py-3"> We specialize in blablabla</h3>
+      <div class="input-group mb-3 w-75 mx-auto py-5 aboutform">
+        <input type="text" class="form-control" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <span class="input-group-text bg-danger text-light border-danger" id="basic-addon2">Subscribe</span>
+      </div>
+    </header>
+
+
+
+   <!--start about-->
+  <div id="about" class="container-fluid p-md-5 p-3">
+    <div class="row">
+      <div class="col-md-8">
+        <h2  class="py-3 fs-4">ABOUT COMPANY PAGE</h2>
+        <p class="py-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <p class="py-3 text-black-50 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <button  class="btn btn-light border p-2"> GET IN TOUCH </button>
+        </div>
+      <div class="col-md-4 text-center pt-5">
+        <i class="fa-solid fa-chart-simple fa-10x color1 wow bounceInUp" data-wow-duration="1s"></i>
+      </div>
+    </div>
+  </div>
+
+
+
+    <!--start values-->
+    <div id="values" class="container-fluid p-md-5 p-3 bg-light">
+      <div class="row">
+        <div class="col-md-4 text-center pt-5">
+
+          <i class="fa-solid fa-earth-americas fa-10x color1 wow bounceInUp" data-wow-duration="1s"></i>
+        </div>
+
+        <div class="col-md-8">
+          <h2  class="py-3 fs-4">OUR VALUES</h2>
+  
+          <p class="py-3 text-justify">MISSION: Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <p class="py-3 text-black-50 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <button  class="btn btn-light border p-2"> GET IN TOUCH </button>
+          </div>
+      </div>
+    </div>
+
+
+     <!--start services-->
+     <div id="services" class="container-fluid p-md-5 p-3 ">
+        <h2 class="text-center pb-3">SERVICES</h2>
+        <p class="text-center pb-3"> What we offer</p>
+      <div class="row wow bounceInUp" data-wow-duration="1s">
+        <div class="col-md-4 text-center p-3">
+          <i class="fa-solid fa-power-off fa-3x color1"></i>
+             <h3 class="py-3">POWER</h3> 
+              <p>Lorem ipsum dolor sit amet..</p>
+        </div>
+       
+        <div class="col-md-4 text-center p-3">
+          <i class="fa-solid fa-power-off fa-3x color1"></i>
+             <h3 class="py-3">POWER</h3> 
+              <p>Lorem ipsum dolor sit amet..</p>
+        </div>
+       
+        <div class="col-md-4 text-center p-3">
+          <i class="fa-solid fa-power-off fa-3x color1"></i>
+             <h3 class="py-3">POWER</h3> 
+              <p>Lorem ipsum dolor sit amet..</p>
+        </div>
+       
+        <div class="col-md-4 text-center p-3">
+          <i class="fa-solid fa-power-off fa-3x color1"></i>
+             <h3 class="py-3">POWER</h3> 
+              <p>Lorem ipsum dolor sit amet..</p>
+        </div>
+       
+        <div class="col-md-4 text-center p-3">
+          <i class="fa-solid fa-power-off fa-3x color1"></i>
+             <h3 class="py-3">POWER</h3> 
+              <p>Lorem ipsum dolor sit amet..</p>
+        </div>
+       
+        <div class="col-md-4 text-center p-3">
+          <i class="fa-solid fa-power-off fa-3x color1"></i>
+             <h3 class="py-3">POWER</h3> 
+              <p>Lorem ipsum dolor sit amet..</p>
+        </div>
+      </div>
+    </div>
+
+
+    <!--start portofolio-->
+    <div id="portofolio" class="container-fluid p-md-5 p-3 bg-light">
+    <h2 class="text-center pb-3">PORTOFOLIO</h2>
+    <p class="text-center pb-3"> What we offer</p>
+
+    <div class="row wow bounceInUp" data-wow-duration="1s">
+      <div class="col-md-4 p-3">
+        <div class="card" >
+          <img src="images/paris.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title">Paris</h5>
+            <p class="card-text">Yes, we built Paris</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 p-3">
+        <div class="card" >
+          <img src="images/newyork.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title">newyork</h5>
+            <p class="card-text">Yes, we built newyork </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 p-3">
+        <div class="card">
+          <img src="images/sanfran.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title">sanfran</h5>
+            <p class="card-text">Yes, we built sanfran</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide " data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active p-5 text-center" data-bs-interval="10000">
+          <div class="p-5">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+            <img src="images/newyork.jpg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="carousel-item p-5 text-center" data-bs-interval="2000">
+          <div class="p-5">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+            <img src="images/images.jfif" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="carousel-item p-5 text-center">
+          <div class="p-5">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+            <img src="images/sea.jpg" class="card-img-top" alt="...">
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fa-solid fa-circle-arrow-left fa-2x color1"></i></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"><i class="fa-solid fa-circle-arrow-right fa-2x color1"></i></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div id="pricing" class="container-fluid p-md-5 p-3">
+        <h2 class="text-center">PRICING</h2>
+        <p class="text-center py-3">Choose a payment plan that works for you
+        </p>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center wow bounceInUp" data-wow-duration="1s">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-5 bg1 text-light ">
+                <h4 class="my-0 fw-normal fs-2">Basic</h4>
+              </div>
+              <div class="card-body py-5">
+                <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>10 users included</li>
+                  <li>2 GB of storage</li>
+                  <li>Email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="btn bg1 text-light ">Sign up</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-5 bg1 text-light">
+                <h4 class="my-0 fw-normal fs-2">Pro</h4>
+              </div>
+              <div class="card-body py-5">
+                <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>20 users included</li>
+                  <li>10 GB of storage</li>
+                  <li>Priority email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class=" btn btn btn-primary">Sign up</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-header py-5 bg1 text-light">
+                <h4 class="my-0 fw-normal fs-2">Premium</h4>
+              </div>
+              <div class="card-body py-5">
+                <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>30 users included</li>
+                  <li>15 GB of storage</li>
+                  <li>Phone and email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class=" btn btn btn-primary">Sign up</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div id="contact" class="container-fluid p-md-5 p-3 bg-light">
+      <h2 class="text-center ">Contact</h2>
+      <div class="row">
+          <div class="col-md-5">
+            <p>Contact us and we'll get back to you within 24 hours.</p>
+
+            <p><i class="fa-solid fa-location-dot"></i> Chicago, US</p>
+
+            <p> <i class="fa-solid fa-mobile-screen-button"></i>  +00 1515151515</p>
+
+            <p> <i class="fa-solid fa-envelope"></i>  myemail@something.com</p>
+          </div>
+          <div class="col-md-7 wow bounceInUp" data-wow-duration="1s">
+            <div class="mb-3">
+              <div class="row">
+                <div class="col-md-6">
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name ">
+
+                </div>
+                <div class="col-md-6">
+                  <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Email ">
+
+                </div>
+
+              </div>
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control text-muted" id="exampleFormControlTextarea1" rows="3" > Comment</textarea>
+            </div>
+            <button class="btn btn-light border-secondary float-end">Send</button>
+          </div>
+
+      </div>
+
+    </div>
+    <div class="">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3418.330599196952!2d31.355875385530076!3d31.04489487757309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f79dd4295c80e9%3A0x29c566a018cecb77!2z2KzYp9mF2LnYqSDYp9mE2YXZhti12YjYsdip!5e0!3m2!1sar!2seg!4v1670841803470!5m2!1sar!2seg" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <footer class="p-md-5 p-3 text-center">
+      <a href="#top"><i class="fa-solid fa-arrow-up color1"></i></a>
+      <p>Bootstrap Theme Made By Nada <a href="#" class="text-decoration-none">www.w3schools.com</a></p>
+    </footer>
+
+    
+
+
+  <script src="js/bootstrap.bundle.min.js" ></script>
+  <script src="js/wow.min.js"></script>
+  <script>
+  new WOW().init();
+  </script>
+<script src="js/jquery-3.6.3.min.js"></script>
+
+
+
+
+  <script>
+$('.bc1').click(function (){
+  $('link[href*="style"]').attr('href',"css/style1.css");
+});
+
+$('.bc2').click(function (){
+  $('link[href*="style"]').attr('href',"css/style2.css");
+});
+
+$('.bc3').click(function (){
+  $('link[href*="style"]').attr('href',"css/style3.css");
+});
+  </script>
+  </body>
+</html>
